@@ -1,6 +1,7 @@
 # flv.mdimporter
 
-[flv ファイル](http://ja.wikipedia.org/wiki/Flash_Video)用の Spotlight プラグインです。
+[flv ファイル](http://ja.wikipedia.org/wiki/Flash_Video)用の Spotlight プラグインです。このプラグインをインストールすることで flv ファイルの情報(動画の縦横のサイズや再生時間など)が Finder などで確認できるようになります。(なるはず)  
+現在のところ flv ファイルにある onMetaData の AMF 形式のデータからメタデータを抽出しているはずです。はずですになっているのはこのプラグインを作りかけで半年くらい放置していたため flv ファイルのフォーマットの記憶も無ければ、ソースコードにコメントもないのであしからず。
 
 ## How to use
 

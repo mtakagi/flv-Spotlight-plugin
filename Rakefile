@@ -6,6 +6,7 @@ PLUGIN_VERSION = "0.0.1" #IO.readlines("Info.plist")[0].match(/(\d|\.)+/)
 
 # rake clean で build ディレクトリ以下を削除
 CLEAN.include("build")
+CLEAN.include("zip")
 
 # rake package で zip ファイルを作る
 package = Rake::PackageTask.new("flv", PLUGIN_VERSION) do |p|

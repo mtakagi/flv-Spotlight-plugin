@@ -1,9 +1,13 @@
 # flv.mdimporter
 
 [flv ファイル](http://ja.wikipedia.org/wiki/Flash_Video)用の Spotlight プラグインです。このプラグインをインストールすることで flv ファイルの情報(動画の縦横のサイズや再生時間など)が Finder などで確認できるようになります。(なるはず)  
-現在のところ flv ファイルにある onMetaData の AMF 形式のデータからメタデータを抽出しているはずです。はずですになっているのはこのプラグインを作りかけで半年くらい放置していたため flv ファイルのフォーマットの記憶も無ければ、ソースコードにコメントもないのであしからず。
+現在のところ flv ファイルにある onMetaData の AMF 形式のデータからメタデータを抽出しているはずです。はずですになっているのはこのプラグインを作りかけで__半年くらい放置__していたため ~~flv ファイルのフォーマットの記憶も無ければ、ソースコードにコメントもないのであしからず。~~
 
 ## How to use
+
+### 対応 OS とか
+ぶっちゃけプロジェクトの設定が 10.7 の SDK を使用するようになっているのでそのままビルドした場合の対応 OS は Mac OS X 10.7 からになります。対応 CPU はビルドの設定は i386 または x86_64 になっています。  
+コードは基本的に [CoreFoundation](https://developer.apple.com/library/mac/#documentation/CoreFoundation/Reference/CoreFoundation_Collection/_index.html) の [CFReadStream](https://developer.apple.com/library/mac/#documentation/CoreFoundation/Reference/CFReadStreamRef/Reference/reference.html) を使用しているので、SDK さえあれば _10.4 からの対応_にするのも _PPC に対応_するのもそれほど難しくはないと思います。__がんばって!__
 
 ### Build
 [プロジェクト](https://github.com/mtakagi/flv-Spotlight-plugin/downloads)をダウンロードするか `git clone` でリポジトリをローカルにクローンし、flv ディレクトリに移動し `rake` コマンドでビルドできます。

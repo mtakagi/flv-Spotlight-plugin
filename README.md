@@ -6,7 +6,7 @@
 ## How to use
 
 ### Build
-[プロジェクト](https://github.com/mtakagi/flv-Spotlight-plugin)をダウンロードするか `git clone` でリポジトリをローカルにクローンし、flv ディレクトリに移動し `rake` コマンドでビルドできます。
+[プロジェクト](https://github.com/mtakagi/flv-Spotlight-plugin/downloads)をダウンロードするか `git clone` でリポジトリをローカルにクローンし、flv ディレクトリに移動し `rake` コマンドでビルドできます。
 
 ### インストール
 `~/Library/Spotlight/` ディレクトリにビルドしたファイルを移動するか、 `rake install` でビルド後にビルドしたファイルを移動できます。

@@ -11,7 +11,7 @@
 コードは基本的に [CoreFoundation](https://developer.apple.com/library/mac/#documentation/CoreFoundation/Reference/CoreFoundation_Collection/_index.html) の [CFReadStream](https://developer.apple.com/library/mac/#documentation/CoreFoundation/Reference/CFReadStreamRef/Reference/reference.html) を使用しているので、SDK さえあれば _10.4 からの対応_ にするのも _PPC に対応_ するのもそれほど難しくはないと思います。__がんばって!__
 
 ### Build
-[プロジェクト](https://github.com/mtakagi/flv-Spotlight-plugin/downloads)をダウンロードするか `git clone` でリポジトリをローカルにクローンし、flv ディレクトリに移動し `rake` コマンドでビルドできます。
+[プロジェクト](https://github.com/mtakagi/flv-Spotlight-plugin/downloads)をダウンロードするか `git clone` でリポジトリをローカルにクローンし、flv ディレクトリに移動し `rake` コマンドでビルドできます。あ、もちろん __[Developer Tools](http://itunes.apple.com/jp/app/xcode/id497799835?mt=12) のインストール__は必要ですよ!
 
 ### インストール
 `~/Library/Spotlight/` ディレクトリにビルドしたファイルを移動するか、 `rake install` でビルド後にビルドしたファイルを移動できます。
